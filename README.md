@@ -10,8 +10,7 @@
 
 Depois deste roteiro você será capaz de implementar alguns algoritmos recursivos clássicos e comparar o tempo de execução das versões recursivas e iterativas.
 
-**O exemplo.** Vamos trabalhar com a busca binária, que vimos na aula teórica.  Veja em `/src/main/java` que eu já implementei a versão iterativa deste algoritmo e já preparei um `main` para logar a execução com os dados
-necessários para plotar os gráficos. 
+**O exemplo.** Vamos trabalhar com a busca binária, que vimos na aula teórica.  Veja em `/src/main/java` que eu já implementei a versão iterativa deste algoritmo e já preparei um `main` para logar a execução com os dados.
 
 Agora é com vocês!
 
@@ -23,7 +22,7 @@ Comece gerando o arquivo que vai conter arrays de diferentes tamanhos. No diret�
 
 > python gera-arrays.py > ../data/input-arrays.data
 
-Veja no diretório `data` que o arquivo `input-arrays.data` contém arrays de diversos tamanhos que vamos usar para ver o desempenho dos nossos algoritmos buscando elementos neles.
+Veja no diretório `data` que o arquivo `input-arrays.data` contém arrays de tamanhos 1000, 10000, 100000, 1000000 e 10000000 que vamos usar para ver o desempenho dos nossos algoritmos buscando elementos neles. 
 
 Agora execute a classe `Main` passando como entrada esses Arrays. No diretório `src/main/java`, execute:
 
@@ -37,15 +36,23 @@ Confira se o arquivo `execution.data` dentro do diretório `data` foi gerado cor
 
 ### Análise
 
-Plote o gráfico e analise os dados. No diretório `scripts`, execute o comando: `R < plot.R --vanilla ../data/execution.data`
-
-Abra o arquivo `Rplots.pdf` que foi gerado.
+Não vamos plotar nenhum gráfico dessa vez. Analise os dados presentes no arquivo `execution.data`.
 
 Perguntas importantes:
-
-  * Na prática, qual é mais veloz? Por que você acha isso?
+  * No código, eu executei, para cada entrada, 30 rodadas e peguei a mediana do tempo de execução para representar o mesmo. Por que eu fiz isso?
+   * **INSIRA SUA RESPOSTA AQUI**
+  * Analise os dados de tempo de execução do algoritmo iterativo. O que você percebe sobre a relação entre o aumento da entrada e o aumento do tempo de execução?
+   * **INSIRA SUA RESPOSTA AQUI**
+  * Analise os dados de tempo de execução do algoritmo recursivo. O que você percebe sobre a relação entre o aumento da entrada e o aumento do tempo de execução?
+   * **INSIRA SUA RESPOSTA AQUI**
+  * Na teoria, os algoritmos tem a mesma eficiência assintótica?
+   * **INSIRA SUA RESPOSTA AQUI**
+  * Na prática, qual é mais veloz? Por que você acha que isso acontece?
+   * **INSIRA SUA RESPOSTA AQUI**
   * Na teoria, qual a classe de complexidade dos dois algoritmos? O que isso significa?
+     **INSIRA SUA RESPOSTA AQUI**
   * Trata-se de algoritmos eficientes de busca? Por que?
+     **INSIRA SUA RESPOSTA AQUI**
 
 ### Mais estudo
 
