@@ -39,6 +39,8 @@ Confira se o arquivo `../../../data/execution.data` foi gerado corretamente.
 
 Plote o gráfico e analise os dados. No diretório scripts, execute o comando: `R < plot.R --vanilla ../data/execution.data`
 
+Abra o arquivo `Rplots.pdf` que foi gerado.
+
 Perguntas importantes:
 
   * Na prática, qual é mais veloz? Por que você acha isso?
