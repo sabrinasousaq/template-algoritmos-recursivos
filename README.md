@@ -11,7 +11,7 @@
 Depois deste roteiro você será capaz de implementar alguns algoritmos recursivos clássicos e comparar o tempo de execução das versões recursivas e iterativas.
 
 **O exemplo.** Vamos trabalhar com a busca binária, que vimos na aula teórica.  Veja em `/src/main/java` que eu já implementei a versão iterativa deste algoritmo e já preparei um `main` para logar a execução com os dados
-necessários para plotar os gráficos.
+necessários para plotar os gráficos. 
 
 Agora é com vocês!
 
@@ -26,7 +26,9 @@ Escreva testes para o seu código. Coloque seus testes no diretório `src/test/j
 
 ### Análise
 
-Plote o gráfico e analise os dados. Perguntas importantes:
+Plote o gráfico e analise os dados. O comando é: `R < caminho/p/plot.R --vanilla caminho/p/execution.data`
+
+Perguntas importantes:
 
   * Na prática, qual é mais veloz? Por que você acha isso?
   * Na teoria, qual a classe de complexidade dos dois algoritmos? O que isso significa?
@@ -39,10 +41,6 @@ Implemente as seguintes questões (com recursividade) no tst-eda:
 * Fibonacci
 * Encontra primeiro negativo
 * Encontra quebra recursivo
-
-
-# Entregando o lab
-
 
 ### O template
 
