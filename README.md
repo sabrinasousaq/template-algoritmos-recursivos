@@ -6,6 +6,19 @@
 
 # Roteiro: Algoritmos Recursivos
 
+## O template
+
+> Não altere o arquivo pom.xml
+
+> O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
+
+> Os testes estarão (ou você terá que incluir) no diretório **/src/test/java/**
+
+> Seu código é tão bom quanto seus testes. Eu vou executar meus testes quando você submeter.
+
+> Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. 
+
+
 ## Introdução
 
 Depois deste roteiro você será capaz de implementar alguns algoritmos recursivos clássicos e comparar o tempo de execução das versões recursivas e iterativas.
@@ -71,26 +84,13 @@ Perguntas importantes:
    
    > INSIRA SUA RESPOSTA AQUI
 
-### Mais estudo
+## Mais estudo
 
 Implemente as seguintes questões (com recursividade) no tst-eda:
 * Busca Linear Recursiva
 * Fibonacci
 * Encontra primeiro negativo
 * Encontra quebra recursivo
-
-### O template
-
-> Não altere o arquivo pom.xml
-
-> O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
-
-> Os testes estarão (ou você terá que incluir) no diretório **/src/test/java/**
-
-> Seu código é tão bom quanto seus testes. Eu vou executar meus testes quando você submeter.
-
-> Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. 
-
 
 ## Trabalhando com o código
 
