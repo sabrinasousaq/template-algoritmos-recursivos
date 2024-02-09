@@ -43,7 +43,7 @@ Comece gerando o arquivo que vai conter arrays de diferentes tamanhos. No diret�
 
 Veja no diretório `data` que o arquivo `input-arrays.data` contém arrays de tamanhos 1000, 10000, 100000 e 1000000, que vamos usar para ver o desempenho dos nossos algoritmos buscando elementos neles. 
 
-Agora execute a classe `Main` passando como entrada esses Arrays. No diretório `src/main/java`, execute:
+Agora execute a classe `Main` passando como entrada esses arrays. No diretório `src/main/java`, execute:
 
 > java Main < ../../../data/input-arrays.data
 
