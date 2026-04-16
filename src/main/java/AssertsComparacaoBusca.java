@@ -2,6 +2,8 @@ public class AssertsComparacaoBusca {
 
     private static final ComparacaoBusca comp = new ComparacaoBusca();
     private static final int[] v = new int[] {1, 4, 5, 6, 7, 8, 23, 45, 67, 89};
+    private static final int MENOR_QUE_MINIMO = -9000;
+    private static final int MAIOR_QUE_MAXIMO = 90000;
 
     public static void main(String[] args) {
         ensureAssertionsEnabled();
@@ -9,7 +11,7 @@ public class AssertsComparacaoBusca {
         testLimitesIterativaNaoEncontrou();
         testLimitesRecursiva();
         testLimitesRecursivaNaoEncontrou();
-        System.out.println("AssertsComparacaoBusca executado.");
+        System.out.println("AssertsComparacaoBusca executados.");
     }
 
     private static void ensureAssertionsEnabled() {
@@ -26,8 +28,8 @@ public class AssertsComparacaoBusca {
     }
 
     public static void testLimitesIterativaNaoEncontrou() {
-        assert comp.buscaBinariaIterativa(v, -9000) == -1 : "Iterativa deve retornar -1 para valor menor que o mínimo";
-        assert comp.buscaBinariaIterativa(v, 90000) == -1 : "Iterativa deve retornar -1 para valor maior que o máximo";
+        assert comp.buscaBinariaIterativa(v, MENOR_QUE_MINIMO) == -1 : "Iterativa deve retornar -1 para valor menor que o mínimo";
+        assert comp.buscaBinariaIterativa(v, MAIOR_QUE_MAXIMO) == -1 : "Iterativa deve retornar -1 para valor maior que o máximo";
     }
 
     public static void testLimitesRecursiva() {
@@ -36,7 +38,7 @@ public class AssertsComparacaoBusca {
     }
 
     public static void testLimitesRecursivaNaoEncontrou() {
-        assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, -9000) == -1 : "Recursiva deve retornar -1 para valor menor que o mínimo";
-        assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, 90000) == -1 : "Recursiva deve retornar -1 para valor maior que o máximo";
+        assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, MENOR_QUE_MINIMO) == -1 : "Recursiva deve retornar -1 para valor menor que o mínimo";
+        assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, MAIOR_QUE_MAXIMO) == -1 : "Recursiva deve retornar -1 para valor maior que o máximo";
     }
 }
