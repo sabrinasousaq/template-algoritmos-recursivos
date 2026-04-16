@@ -4,11 +4,20 @@ public class AssertsComparacaoBusca {
     private static final int[] v = new int[] {1, 4, 5, 6, 7, 8, 23, 45, 67, 89};
 
     public static void main(String[] args) {
+        ensureAssertionsEnabled();
         testLimitesIterativa();
         testLimitesIterativaNaoEncontrou();
         testLimitesRecursiva();
         testLimitesRecursivaNaoEncontrou();
         System.out.println("AssertsComparacaoBusca executado.");
+    }
+
+    private static void ensureAssertionsEnabled() {
+        boolean assertionsEnabled = false;
+        assert assertionsEnabled = true;
+        if (!assertionsEnabled) {
+            throw new IllegalStateException("Execute com -ea para habilitar assertions.");
+        }
     }
 
     public static void testLimitesIterativa() {
