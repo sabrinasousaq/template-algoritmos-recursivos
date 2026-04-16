@@ -11,7 +11,7 @@ public class AssertsComparacaoBusca {
         testLimitesIterativaNaoEncontrou();
         testLimitesRecursiva();
         testLimitesRecursivaNaoEncontrou();
-        System.out.println("AssertsComparacaoBusca executados.");
+        System.out.println("Asserts de ComparacaoBusca executados.");
     }
 
     private static void ensureAssertionsEnabled() {
@@ -22,22 +22,22 @@ public class AssertsComparacaoBusca {
         }
     }
 
-    public static void testLimitesIterativa() {
+    private static void testLimitesIterativa() {
         assert comp.buscaBinariaIterativa(v, 1) == 0 : "Iterativa deve encontrar 1 no índice 0";
         assert comp.buscaBinariaIterativa(v, 89) == v.length - 1 : "Iterativa deve encontrar 89 no último índice";
     }
 
-    public static void testLimitesIterativaNaoEncontrou() {
+    private static void testLimitesIterativaNaoEncontrou() {
         assert comp.buscaBinariaIterativa(v, MENOR_QUE_MINIMO) == -1 : "Iterativa deve retornar -1 para valor menor que o mínimo";
         assert comp.buscaBinariaIterativa(v, MAIOR_QUE_MAXIMO) == -1 : "Iterativa deve retornar -1 para valor maior que o máximo";
     }
 
-    public static void testLimitesRecursiva() {
+    private static void testLimitesRecursiva() {
         assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, 1) == 0 : "Recursiva deve encontrar 1 no índice 0";
         assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, 89) == v.length - 1 : "Recursiva deve encontrar 89 no último índice";
     }
 
-    public static void testLimitesRecursivaNaoEncontrou() {
+    private static void testLimitesRecursivaNaoEncontrou() {
         assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, MENOR_QUE_MINIMO) == -1 : "Recursiva deve retornar -1 para valor menor que o mínimo";
         assert comp.buscaBinariaRecursiva(v, 0, v.length - 1, MAIOR_QUE_MAXIMO) == -1 : "Recursiva deve retornar -1 para valor maior que o máximo";
     }
