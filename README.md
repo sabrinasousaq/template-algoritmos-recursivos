@@ -10,9 +10,7 @@
 
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-> Os testes estarão (ou você terá que incluir) no diretório **/src/test/java/**
-
-> Seu código é tão bom quanto seus testes. Eu vou executar meus testes quando você submeter.
+> Escreva testes para os seus programas! Siga o nosso padrão de ter uma classe chamada AssertsXXX.
 
 > Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. Mas você pode/deve criar outros métodos e classes, desde que passem nos testes.
 
