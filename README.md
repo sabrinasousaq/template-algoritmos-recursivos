@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Sabrina de Oliveira Sousa
+* Email (@ccc): sabrina.de.oliveira.sousa@ccc.ufcg.edu.br
+* Matrícula: 124212432
 
 # Roteiro: Algoritmos Recursivos
 
